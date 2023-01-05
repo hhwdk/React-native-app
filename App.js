@@ -87,7 +87,7 @@ function Items({ done: doneHeading, onPressItem }) {
                             ({ color: done ? '#fff' : '#000' },
                             styles.buttonText)
                         }>
-                        {value},{id}
+                        {value}, {id}
                     </Text>
 
                     <View style={styles.buttons}>
@@ -152,7 +152,7 @@ export default function App() {
                 </SafeAreaView>
                 <Modal
                     animationType="slide"
-                    transparent={true}
+                    transparent={false}
                     visible={modalVisible}
                     style={{ marginTop: 22 }}
                     onRequestClose={() => {
